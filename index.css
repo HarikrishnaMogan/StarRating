@@ -1,0 +1,76 @@
+*{
+    overflow: hidden;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(10deg,rgba(248, 11, 197, 0.5),rgb(154, 20, 231,0.5)),
+        url("/pat-kay-B9j-xgMVf90-unsplash.jpg");
+        background-size:cover;
+        background-repeat:repeat-y;
+}
+.container{
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    background-color: rgba(223, 223, 223, 0.26);
+    width:500px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50px 0 50px 0;
+}
+h1{
+   color: whitesmoke;
+}
+.Rcon{
+    text-align: center;
+    transform: rotateY(180deg);
+    margin-top: 2rem;
+}
+.Rcon input{
+    display: none;
+}
+.Rcon label{
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgba(20, 20, 20, 0.774);
+    transition: 0.5s linear;
+}
+ input:checked ~label,
+ label:hover
+ {
+    color: yellow;
+}
+.textarea{
+    margin-top: 3rem;
+    text-align: center;
+}
+.textarea div {
+   display: flex;
+   justify-content: center;
+}
+textarea{
+    font-size: 16px;
+}
+button{
+    margin-top: 2rem;
+    padding: 10px;
+    background: linear-gradient(30deg, rgba(130, 213, 241, 0.596),rgba(119, 151, 240, 0.63));
+    border:none;
+    color:whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+button:hover{
+    background: linear-gradient(30deg, rgba(130, 213, 241),rgba(119, 151, 240));
+}
+.Sanim{
+    font-size: 30px;
+    color:rgb(235, 221, 23);
+    position: absolute;
+   bottom:50%;
+}
